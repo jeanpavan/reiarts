@@ -3,10 +3,10 @@ import { useState } from 'react';
 function Home() {
     return (
         <div>
-            <h1>Home</h1>
-            <Counter />
+            <h1>Site em desenvolvimento</h1>
+            {/*<Counter />
             <CapsLock1 text="Jeito 1: Me deixe em Caps Lock por favor" />
-            <CapsLock2>Jeito 2: Me deixe em Caps Lock por favor</CapsLock2>
+            <CapsLock2>Jeito 2: Me deixe em Caps Lock por favor</CapsLock2> */}
         </div>
     )
 }
