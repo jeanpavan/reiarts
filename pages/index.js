@@ -1,9 +1,13 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 function Home() {
     return (
         <div>
             <h1>Site em desenvolvimento</h1>
+            <Link href="/sobre">
+                <a>Sobre</a>
+            </Link>
             {/*<Counter />
             <CapsLock1 text="Jeito 1: Me deixe em Caps Lock por favor" />
             <CapsLock2>Jeito 2: Me deixe em Caps Lock por favor</CapsLock2> */}
